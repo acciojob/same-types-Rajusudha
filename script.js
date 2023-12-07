@@ -1,8 +1,7 @@
 function isSameType(value1, value2) {
   //your js code here
-	function isSameType(value1, value2) {
-  // Check if both values are NaN
-  if (isNaN(value1) && isNaN(value2)) {
+	
+ if (isNaN(value1) && isNaN(value2)) {
     return true;
   }
 
@@ -14,7 +13,8 @@ function isSameType(value1, value2) {
 console.log(isSameType(5, 10));            // true
 console.log(isSameType('hello', 'world')); // true
 console.log(isSameType(3, '3'));            // false
-console.log(isSameType(NaN, NaN));          // true
+console.log(isSameType(NaN, NaN));          // true 
+	
 
 }
 
